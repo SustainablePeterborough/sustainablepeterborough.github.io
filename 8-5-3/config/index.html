@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20240507180551">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20240508164439">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -459,7 +459,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('computation_units', "");
+        var currentValue = normalizeCurrentValue('computation_units', "Percentage");
         var propertyEditor = editor.getEditor('root.computation_units');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -547,7 +547,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('data_start_values', [{"field":"Geography","value":"Asphodel-Norwood"},{"field":"Geography","value":"Otonabee-South Monaghan"},{"field":"Geography","value":"Hiawatha First Nation"},{"field":"Geography","value":"Cavan Monaghan"},{"field":"Geography","value":"Peterborough (City)"},{"field":"Geography","value":"Selwyn"},{"field":"Geography","value":"Curve Lake First Nation"},{"field":"Geography","value":"Douro-Dummer"},{"field":"Geography","value":"Havelock-Belmont-Methuen"},{"field":"Geography","value":"North Kawartha"},{"field":"Geography","value":"Trent Lakes"},{"field":"Gender","value":"Total (all genders)"},{"field":"Age","value":"Total (all ages)"},{"field":"Main mode of commuting","value":"Total - Main mode of commuting"}]);
+        var currentValue = normalizeCurrentValue('data_start_values', [{"field":"Geography","value":"Asphodel-Norwood"},{"field":"Geography","value":"Otonabee-South Monaghan"},{"field":"Geography","value":"Hiawatha First Nation"},{"field":"Geography","value":"Cavan Monaghan"},{"field":"Geography","value":"Peterborough (City)"},{"field":"Geography","value":"Selwyn"},{"field":"Geography","value":"Curve Lake First Nation"},{"field":"Geography","value":"Douro-Dummer"},{"field":"Geography","value":"Havelock-Belmont-Methuen"},{"field":"Geography","value":"North Kawartha"},{"field":"Geography","value":"Trent Lakes"},{"field":"Main mode of commuting","value":"Sustainable transportation"}]);
         var propertyEditor = editor.getEditor('root.data_start_values');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -693,7 +693,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_title', "Main mode of commuting by commuting duration, time leaving for work, age and gender");
+        var currentValue = normalizeCurrentValue('graph_title', "Main mode of commuting");
         var propertyEditor = editor.getEditor('root.graph_title');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -721,7 +721,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('graph_type', "line");
+        var currentValue = normalizeCurrentValue('graph_type', "bar");
         var propertyEditor = editor.getEditor('root.graph_type');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -737,7 +737,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('indicator_name', "Main mode of commuting by commuting duration, time leaving for work, age and gender");
+        var currentValue = normalizeCurrentValue('indicator_name', "Main mode of commuting");
         var propertyEditor = editor.getEditor('root.indicator_name');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -999,12 +999,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20240507180551'></script>
+<script src='/assets/js/sdg.js?v=20240508164439'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20240507180551"></script><script>
+    <script src="/assets/js/custom.js?v=20240508164439"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

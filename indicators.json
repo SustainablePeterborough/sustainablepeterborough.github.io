@@ -903,7 +903,7 @@
         },
         {
           "id": "8-5-3",
-          "title": "Main mode of commuting by commuting duration, time leaving for work, age and gender",
+          "title": "Main mode of commuting",
           "description": "",
           "keywords": "",
           "href": "/8-5-3/",
@@ -1239,11 +1239,11 @@
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "Population density and dwelling counts",
           "description": "",
           "keywords": "",
           "href": "/11-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-2",
@@ -1295,11 +1295,11 @@
         },
         {
           "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "title": "Population density and dwelling counts",
           "description": "",
           "keywords": "",
           "href": "/11-6-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-7-1",
